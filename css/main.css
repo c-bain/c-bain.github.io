@@ -1,0 +1,193 @@
+a {
+  text-decoration: none;
+}
+
+Images{
+  max-width: 100%;
+}
+
+#wrapper {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 5%;
+}
+
+
+h3{
+  margin: 0 0 lem 0;
+
+
+}
+
+
+.profilepic{
+  display:block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius: 100%;
+}
+
+#gallery{
+   font-family: 'Open Sans', sans-serif;
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+
+#gallery li {
+  float: left;
+  width: 45%;
+  margin:2.5%;
+  background-color: #f5f5f5;
+  color:#bdc3c7;
+}
+
+#gallery li a p {
+  margin:0;
+  padding: 5%;
+  font-size: 1.00em;
+  color: #bdc3c7;
+
+}
+
+
+#logo{
+  text-align:center;
+  margin: 0;
+}
+
+header{
+
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width:100%;
+}
+
+h1{
+  font-family: 'Changa One', cursive;
+  margin: 15px 0;
+  font-size: 1.75em;
+  font-weight:normal;
+  line-height: 0.8em;
+}
+
+h2{
+  font-size: 0.75em;
+  margin: -5px 0 0;
+  font-weight: bold;
+  font-size: 1.00em;
+}
+
+nav{
+   font-family: 'Open Sans', sans-serif;
+   text-align:center;
+   padding: 10 px 0 0;
+   margin: 20px 0 0;
+}
+
+nav a{
+  font-weight: 800;
+  padding: 15px 10px;
+}
+
+.social-icon{
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+nav ul{
+  list-style:none;
+  margin 0 10px;
+  padding:0;
+}
+
+
+nav li{
+  display: inline-block;
+}
+
+footer{
+ font-size: 0.75em;
+ text-align: center;
+ clear:both;
+ padding-top: 50px;
+ color: #ccc;
+
+}
+
+a{
+  color: #6ab47b;
+}
+
+
+header{
+  background: #6ab47b;
+  border-color: #599a68;
+}
+
+body{
+ font-family: 'Open Sans', sans-serif;
+}
+
+
+h1, h2{
+  color: #fff;
+}
+
+nav {
+  background: #599a68;
+}
+
+nav a, nav a:visited {
+  color: #fff;
+}
+
+
+nav a.current, nav a:hover {
+  color: #32673f;
+}
+
+body{
+  background-color: #fff;
+  color: #999;
+
+}
+
+
+
+/*  SECTIONS  */
+.section {
+  clear: both;
+  padding: 0px;
+  margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+  display: block;
+  float:left;
+  margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+
+
+/*  GRID OF THREE  */
+.span_3_of_3 { width: 100%; }
+.span_2_of_3 { width: 66.13%; }
+.span_1_of_3 { width: 32.26%; }
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+  .col {  margin: 1% 0 1% 0%; }
+  .span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+}
